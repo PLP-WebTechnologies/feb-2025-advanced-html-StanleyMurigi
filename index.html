@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 Features Example</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Welcome to HTML5 Features Demo</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Top 5 Web Technologies</h2>
+    <ol type="I">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>PHP</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Inspiring Image</h2>
+    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg" 
+         alt="Mountain View" 
+         width="500" />
+  </section>
+
+  <!-- Table of Contacts -->
+  <section>
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Main St, Nairobi</td>
+          <td>+254700000001</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>456 River Rd, Kisumu</td>
+          <td>+254700000002</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Linda Kamau</td>
+          <td>789 Valley Rd, Mombasa</td>
+          <td>+254700000003</td>
+          <td>linda@example.com</td>
+        </tr>
+        <tr>
+          <td>Peter Otieno</td>
+          <td>101 Sunset Blvd, Eldoret</td>
+          <td>+254700000004</td>
+          <td>peter@example.com</td>
+        </tr>
+        <tr>
+          <td>Grace Wanjiru</td>
+          <td>202 Hilltop Lane, Nakuru</td>
+          <td>+254700000005</td>
+          <td>grace@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br><br>
+
+      <!-- Email -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br><br>
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" minlength="6" placeholder="Minimum 6 characters" required /><br><br>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required /><br><br>
+
+      <!-- Dropdown -->
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">--Choose a course--</option>
+        <option value="web">Web Development</option>
+        <option value="data">Data Science</option>
+        <option value="design">UI/UX Design</option>
+      </select><br><br>
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br><br>
+
+      <!-- Checkboxes -->
+      <p>Skills:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML" />
+      <label for="html">HTML</label>
+      <input type="checkbox" id="css" name="skills" value="CSS" />
+      <label for="css">CSS</label>
+      <input type="checkbox" id="js" name="skills" value="JavaScript" />
+      <label for="js">JavaScript</label><br><br>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <!-- Multimedia Section -->
+  <section>
+    <h2>Multimedia Section</h2>
+
+    <!-- Audio -->
+    <h3>Relaxing Audio</h3>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video -->
+    <h3>Sample Video</h3>
+    <video width="400" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HTML5 Demo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
